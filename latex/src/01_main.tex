@@ -1,0 +1,38 @@
+%! Author = tru
+%! Date = 10.06.2025
+
+% Preamble
+\documentclass[11pt]{article}
+\input{00_preambel}
+
+
+% Custom no-header style for index
+\fancypagestyle{noheader}{
+    \fancyhf{}                % Clear header and footer
+    \renewcommand{\headrulewidth}{0pt} % Remove header line
+    \renewcommand{\footrulewidth}{0pt} % Remove footer line
+}
+
+
+% Define project name
+\newcommand{\projectname}{futuremem}
+%\newcommand{\projectname}{vssm-frecem}
+%\newcommand{\projectname}{abomodell}
+
+
+\newcommand{\projectsubtitle}{Test}
+% Projektabhängiger Untertitel
+\IfStrEq{\projectname}{futuremem}{\renewcommand{\projectsubtitle}{FUTUREMEM}}{}
+\IfStrEq{\projectname}{vssm-frecem}{\renewcommand{\projectsubtitle}{VSSM-FRECEM}}{}
+% Document -------------------------------------------------------------------------
+% WICHTIG: Pro Zeile ein Satz, aufgrund Nachverfolgung der Anpassungen via Git
+\begin{document}
+% Include the functions file
+\include{99_functions}
+
+% hier folgende die einzelnen Kapitel aus separaten Dateien
+% Kapitel ------------------------------------------------------
+\section{Einleitung}\label{sec:einleitung}
+\input{10_einleitung}
+
+\end{document}
