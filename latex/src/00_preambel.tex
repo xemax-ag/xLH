@@ -1,83 +1,14 @@
-%! Author = tru
-%! Date = 10.06.2025
+% https://github.com/PetteriAimonen/latex-datasheet-template
 
-% Preamble
-
-% Packages
-\usepackage[ngerman]{babel} % Für deutsche Sprache
-\usepackage[utf8]{inputenc} % Für Umlaute
-% math
-\usepackage{amsmath}
-
-\usepackage{blindtext}
-
-% color and images
-\usepackage{xcolor}
-\usepackage{graphicx}
-
-\usepackage{enumitem}
-\usepackage{lastpage}
-%\usepackage{xstring}
-\usepackage{geometry}
-% choose font
-\usepackage[T1]{fontenc}
+% Input encoding and typographical rules for English language
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage[english]{isodate}
 \usepackage{lmodern}
-% quotes
-\usepackage[german=guillemets]{csquotes}
-% set special behaviour for hyperlinks in pdfs
-\usepackage[breaklinks=true]{hyperref}
 
-\usepackage{fancyhdr}
-\usepackage{array}
-\usepackage{float}
-\usepackage{longtable} % For multipage tables
-\usepackage{caption}
-
-\usepackage{xstring}  % or ifthen or etoolbox, depending on which version you use
-\usepackage[bottom]{footmisc}  % Footnote at the bottom of the page
-\usepackage{acronym} % Paket für Abkürzungsverzeichnis
-\usepackage{makeidx}
-%\usepackage{multind}
-
-\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
-
-
-\usepackage[backend=bibtex,style=verbose-trad2]{biblatex}
-% Include the bibliography style
-%\bibliographystyle{plain} % Choose a style like ieeetr, plain, etc
-%\bibliography{/home/tru/xEduOrg/latex/out/bibliography} % 'references' is the name of your .bib file (without extension)
-%\bibliography{../out/bibliography} % 'references' is the name of your .bib file (without extension)
-
-\usepackage[parfill]{parskip}  % no indent after line break
-
-\newlength{\myImageSizeGlobal}
-\setlength{\myImageSizeGlobal}{0.9\textwidth} % Set initial value
-
- \geometry{
-    a4paper,
-    left=25mm,
-    right=15mm,
-    top=30mm,
-    bottom=20mm,
- }
-
-\pagestyle{fancy}
-% Adjust caption spacing (space below the table and above caption)
-\setlength{\belowcaptionskip}{0.2cm} % Space between the table and the caption
-
-\renewcommand{\headrulewidth}{0pt}
-\fancyhead{} % clear all header fields
-\fancyfoot{} % clear all footer fields
-
-\renewcommand{\headrulewidth}{}
-\rhead{\includegraphics[width=4cm]{graphics/xemax_logo}}  % xemax logo
-
-% Redefine
-%\renewcommand{\contentsname}{Inhaltsverzeichnis}
-%\renewcommand{\indexname}{Stichwortverzeichnis}
-%\renewcommand{\bibname}{Quellen}
-%\renewcommand{\refname}{Quellen}
-%\renewcommand{\listfigurename}{Abbildungsverzeichnis}
-%\renewcommand{\listtablename}{Tabellenverzeichnis}
-%\renewcommand{\figurename}{Abbildung}
-%\renewcommand{\tablename}{Tabelle}
+% tikz is used to draw images in this example, but you can
+% also use \includegraphics{}.
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{circuitikz}
+\usetikzlibrary{calc}
