@@ -1,6 +1,6 @@
 # xLH
 ## Produktefamilie
-Eine ausführliche Anleitung sowie technische Details finden Sie in der [PDF-Dokumentation](docs/latex/pdf/).
+[PDF-Dokumentation](docs/latex/pdf/) für die technischen Details.
 - [xLH-lx-base](docs/latex/pdf/xLH-lx-base.pdf)
 - [xLH-lx-power](docs/latex/pdf/xLH-lx-power.pdf)
 - [xLH-io-base](docs/latex/pdf/xLH-io-base.pdf)
