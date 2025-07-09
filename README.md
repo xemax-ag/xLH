@@ -1,5 +1,9 @@
 # xLH
-
+## Produktefamilie
+- xLH-lx-base
+- xLH-lx-power
+- xLH-io-base
+- xLH-io-base-sp-4
 
 ## Installation Python
 - pyenv install 3.12.9
