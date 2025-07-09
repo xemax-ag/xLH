@@ -17,10 +17,14 @@ source "$venv_dir/bin/activate"
 
 cd "$src_dir"
 python build_preprocessor.py
-
+# 2-maliges Erstellen für die korrekten Referenzen innerhalb der Dokumente
+pdflatex -interaction nonstopmode -output-directory $pdf_dir xLH-lx-base.tex
 pdflatex -interaction nonstopmode -output-directory $pdf_dir xLH-lx-base.tex
 pdflatex -interaction nonstopmode -output-directory $pdf_dir xLH-lx-power.tex
+pdflatex -interaction nonstopmode -output-directory $pdf_dir xLH-lx-power.tex
 pdflatex -interaction nonstopmode -output-directory $pdf_dir xLH-io-base.tex
+pdflatex -interaction nonstopmode -output-directory $pdf_dir xLH-io-base.tex
+pdflatex -interaction nonstopmode -output-directory $pdf_dir xLH-io-base-sp-4.tex
 pdflatex -interaction nonstopmode -output-directory $pdf_dir xLH-io-base-sp-4.tex
 
 cd "$pdf_dir"
