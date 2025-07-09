@@ -19,6 +19,8 @@ source "$venv_dir/bin/activate"
 # https://tex.stackexchange.com/questions/140845/how-can-i-ignore-latex-error-while-compiling
 pdflatex --interaction nonstopmode xLH-lx-base.tex
 pdflatex --interaction nonstopmode xLH-lx-power.tex
+pdflatex --interaction nonstopmode xLH-io-base.tex
+pdflatex --interaction nonstopmode xLH-io-base-sp-4.tex
 
 deactivate
 exit

@@ -21,7 +21,7 @@
 
 %\section{Beschreibung}
 
-Der \xlhPlattformID erlaubt die Integration von bestehender Infrastruktur in einer kompakten Form.
+Der \xlhPlattformID erlaubt die Integration von bestehender Infrastruktur via Laborsteckern.
 
 Weitere Unterlagen (Elekronikschema, Step-Datei Gehäuse, ...) sind via
 \href{https://github.com/xemax-ag/xLH/}{GitHub \xlhPlattformID}\ verfügbar.
@@ -29,26 +29,23 @@ Weitere Unterlagen (Elekronikschema, Step-Datei Gehäuse, ...) sind via
 \section{Features}
 
 \begin{itemize}
-    \item Microcontroller M5-Stack Atom Lite
     \item 8 digitale Eingänge 24VDC
     \item 8 digitale Ausgänge 24VDC
     \item 2 analoge Eingänge 0-10VDC
     \item 2 analoge Ausgänge 0-10VDC
-    \item Spannungsversorgung für xLH-lx-base integriert
-    \item kompakte Umsetzung
 \end{itemize}
 
-\section{Software}
-
-\begin{itemize}
-    \item ??
-\end{itemize}
-
-\section{Interface}
-
-\begin{itemize}
-    \item ??
-\end{itemize}
+%\section{Software}
+%
+%\begin{itemize}
+%    \item ??
+%\end{itemize}
+%
+%\section{Interface}
+%
+%\begin{itemize}
+%    \item ??
+%\end{itemize}
 
 % Switch to next column
 \vfill\break
@@ -96,45 +93,38 @@ Eine detaillierte Auflistung ist in Tabelle~\ref{tab:optionen} ersichtlich.
         \thickhline
         \textbf{Pos.} & \textbf{Anzahl} & \textbf{Art-Nr} & \textbf{Beschreibung} & \textbf{Ausführung} \\
         \hline
-        1 & 1 & xlh-io-base-pcb-smd & Elektronik PCB mit SMD-Bestückung & \multirow{4}{*}{Bausatz\tnote{1}}  \\
-        2 & 1 & xlh-io-base-tht & Elektronik THT Bauteile lose verpackt &  \\
-        3 & 1 & xlh-m5s-atom-lite & Microcontroller M5-Stack Atom Lite & \\
-        4 & 1 & xlh-io-base-3d-sp & Gehäuse 3D gedruckt inklusive Kleinmaterial & \\
+        1 & 1 & xlh-io-base-sp-4-pcb & Elektronik PCB & \multirow{3}{*}{Bausatz\tnote{1}}  \\
+        2 & 1 & xlh-io-base-sp-4-tht & Elektronik THT Bauteile lose verpackt &  \\
+        3 & 1 & xlh-io-base-3d-4-sp & Gehäuse 3D gedruckt inklusive Kleinmaterial & \\
         \hline
-        5 & 1 & xlh-io-base-assembly & Zusammenbau Elektronik und Gehäuse & montiert \\
-        \hline
-        6 & 1 & xlh-c-mount-sp & Adapter C-Schiene inklusive Kleinmaterial & \multirow{4}{*}{Optionen\tnote{2}} \\
-        7 & 1 & xlh-ps-24v-65w & Tischnetzgerät 24VDC/2.7A inklusive Kabel 1m &  \\
-        8 & 1 & xlh-usb-c-a & USB-C Kabel (Typ A Stecker) &  \\
-        9 & 1 & xlh-usb-iso & USB-Adapter galvanische Trennung (Typ A) ADUM3160 &  \\
+        4 & 1 & xlh-io-base-sp-4-assembly & Zusammenbau Elektronik und Gehäuse & montiert \\
         \thickhline
     \end{tabularx}
 \begin{tablenotes}
 \item[1]{Standardmässige Ausführung}
-\item[2]{können unabhängig voneinander kombiniert werden}
 \end{tablenotes}
 \label{tab:optionen}
 \end{threeparttable}
 \end{table}
 
-\section{Applikationen}
-In Tabelle~\ref{tab:applikationen} sind die verfügbaren Applikationen aufgelistet.
+%\section{Applikationen}
+%In Tabelle~\ref{tab:applikationen} sind die verfügbaren Applikationen aufgelistet.
 
-\begin{table}[h]
-\begin{threeparttable}
-\caption{Applikationen \xlhPlattformID}
-    \begin{tabularx}{\textwidth}{l | l | l }
-        \thickhline
-        \textbf{Pos.} & \textbf{Art-Nr} & \textbf{Beschreibung} \\
-        \hline
-        1 & xlh-io-base-firmware & Firmware für den Microcontroller \\
-        2 & ? & ?  \\
-        \thickhline
-    \end{tabularx}
-
-\label{tab:applikationen}
-\end{threeparttable}
-\end{table}
+%\begin{table}[h]
+%\begin{threeparttable}
+%\caption{Applikationen \xlhPlattformID}
+%    \begin{tabularx}{\textwidth}{l | l | l }
+%        \thickhline
+%        \textbf{Pos.} & \textbf{Art-Nr} & \textbf{Beschreibung} \\
+%        \hline
+%        1 & xlh-io-base-firmware & Firmware für den Microcontroller \\
+%        2 & ? & ?  \\
+%        \thickhline
+%    \end{tabularx}
+%
+%\label{tab:applikationen}
+%\end{threeparttable}
+%\end{table}
 
 \section{Voraussetzungen}
 In Tabelle~\ref{tab:voraussetzungen} sind die für den Betrieb benötigten Komponenten aufgelistet.
@@ -146,8 +136,7 @@ In Tabelle~\ref{tab:voraussetzungen} sind die für den Betrieb benötigten Kompo
         \thickhline
         \textbf{Pos.} & \textbf{Art-Nr} & \textbf{Beschreibung} \\
         \hline
-        1 & xlh-lx-base & CPU 1GHz quad-core, 64-bit ARM Cortex-A53, 512MB RAM \\
-        2 & xlh-lx-power & CPU 1.8GHz quad-core, 64-bit ARM Cortex-A72, 8GB RAM \\
+        1 & xlh-io-base & IO Base \\
         \thickhline
     \end{tabularx}
 
