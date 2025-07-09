@@ -18,9 +18,10 @@ source "$venv_dir/bin/activate"
 cd "$src_dir"
 python build_preprocessor.py
 
-# https://tex.stackexchange.com/questions/140845/how-can-i-ignore-latex-error-while-compiling
 pdflatex -interaction nonstopmode -output-directory $pdf_dir xLH-lx-base.tex
 pdflatex -interaction nonstopmode -output-directory $pdf_dir xLH-lx-power.tex
+pdflatex -interaction nonstopmode -output-directory $pdf_dir xLH-io-base.tex
+pdflatex -interaction nonstopmode -output-directory $pdf_dir xLH-io-base-sp-4.tex
 
 cd "$pdf_dir"
 rm *.aux *.log *.out
