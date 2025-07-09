@@ -14,6 +14,7 @@ Merkmale
 - Toolchain und Arbeitsprozesse aus der Industrie 
 - offenes Konzept, erlaubt eigene Erweiterungen (Projekte)
 - fächer- bzw. themenübergreifend einsetzbar (Harmonisierung der Toolchain)
+- Systemarchitektur richtet sich nach den heute gängigen industriellen Umsetzungen
 
 Controller-Boards
 - [xLH-lx-base](docs/latex/pdf/xLH-lx-base.pdf)
