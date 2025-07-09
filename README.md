@@ -1,5 +1,5 @@
 # xLH
-## Produktefamilie
+## Beschreibung
 Die xLH-Produkte zeichnen sich durch die klare didaktische Fokussierung im industrienahen Umfeld aus.
 Industrielle Workflows preislich heruntergebrochen auf individualisiertes Lernniveau für **JEDE** Lernende und **JEDEN** Lernenden.
 [PDF-Dokumentation](docs/latex/pdf/) für die technischen Details.
