@@ -2,6 +2,7 @@
 ## Produktefamilie
 Die xLH-Produkte zeichnen sich durch die klare didaktische Fokussierung im industrienahen Umfeld aus.
 Industrielle Workflows preislich heruntergebrochen auf individualisiertes Lernniveau für **JEDE** Lernende und **JEDEN** Lernenden.
+[PDF-Dokumentation](docs/latex/pdf/) für die technischen Details.
 
 Merkmale
 - handlungskompetenzen-orientiertes (haptisches) Lernen an realen Aufbauten 
@@ -13,8 +14,6 @@ Merkmale
 - Toolchain und Arbeitsprozesse aus der Industrie 
 - offenes Konzept, erlaubt eigene Erweiterungen (Projekte)
 - fächer- bzw. themenübergreifend einsetzbar (Harmonisierung der Toolchain)
-
-[PDF-Dokumentation](docs/latex/pdf/) für die technischen Details.
 
 Controller-Boards
 - [xLH-lx-base](docs/latex/pdf/xLH-lx-base.pdf)
