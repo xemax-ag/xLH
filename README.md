@@ -1,13 +1,10 @@
 # xLH
 ## Produktefamilie
 Eine ausführliche Anleitung sowie technische Details finden Sie in der [PDF-Dokumentation](docs/latex/pdf/).
-
 - [xLH-lx-base](docs/latex/pdf/xLH-lx-base.pdf)
-
-
-- xLH-lx-power
-- xLH-io-base
-- xLH-io-base-sp-4
+- [xLH-lx-power](docs/latex/pdf/xLH-lx-power.pdf)
+- [xLH-io-base](docs/latex/pdf/xLH-io-base.pdf)
+- [xLH-io-base-sp-4](docs/latex/pdf/xLH-io-base-sp-4.pdf)
 
 ## Installation Python
 - pyenv install 3.12.9
