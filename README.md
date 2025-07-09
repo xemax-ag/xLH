@@ -1,6 +1,10 @@
 # xLH
 ## Produktefamilie
-- xLH-lx-base
+Eine ausführliche Anleitung sowie technische Details finden Sie in der [PDF-Dokumentation](docs/pdf/).
+
+- [xLH-lx-base](docs/pdf/xLH-lx-base.pdf)
+
+
 - xLH-lx-power
 - xLH-io-base
 - xLH-io-base-sp-4
