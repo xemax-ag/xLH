@@ -1,0 +1,54 @@
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[ngerman]{babel}
+\usepackage{xstring}  % or ifthen or etoolbox, depending on which version you use
+\usepackage{graphicx}
+
+\usepackage{hyperref}
+
+% Include the textpos package for positioning
+\usepackage[absolute,overlay]{textpos}
+
+
+\usepackage{xcolor} % Required for specifying colors with RGB values
+
+\newlength{\myImageSizeGlobal}
+\setlength{\myImageSizeGlobal}{1.0\textwidth} % Set initial value
+
+
+%\usetheme{Luebeck}
+\usetheme{Warsaw}
+%\usecolortheme{crane}  % yellow
+%\usecolortheme{seagull}  % green
+
+% Define custom green colors using RGB values
+\definecolor{customBlue}{RGB}{22, 128, 219} % 1
+\definecolor{customDarkGreen}{RGB}{27, 48, 66} % 2
+\definecolor{customGreen}{RGB}{0, 169, 157} % 3
+\definecolor{customOrange}{RGB}{201, 24, 106} % 4
+\definecolor{customRed}{RGB}{219, 31, 22} % 5
+
+\setbeamercolor{normal text}{fg=customDarkGreen}
+\setbeamercolor{frametitle}{fg=white}          % For frame titles
+\setbeamercolor{item}{fg=customDarkGreen}
+
+\setbeamercolor{section in toc}{fg=customDarkGreen}
+\setbeamercolor{subsection in toc}{fg=customDarkGreen}
+
+\setbeamercolor{alerted text}{fg=customRed} % Change alert text color globally
+
+
+
+% Customize Beamer color theme
+\setbeamercolor*{palette primary}{fg=white,bg=customGreen} % Title bar color
+%\setbeamercolor*{palette secondary}{fg=customDarkGreen,bg=customOrange} % Navigation bar color
+%\setbeamercolor*{palette tertiary}{fg=white,bg=customDarkGreen} % Sidebar color
+%\setbeamercolor*{block title}{fg=red,bg=customGreen} % Block title background
+%\setbeamercolor*{block body}{fg=customDarkGreen,bg=customLightGreen} % Block body background
+
+
+
+

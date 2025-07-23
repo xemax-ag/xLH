@@ -5,7 +5,7 @@
 \newcommand{\xlhPlattformID}{xLH-lx-power}
 
 \documentclass[10pt]{datasheet}
-\input{preambel}
+\input{preambel_datasheet}
 
 % These define global texts that are used in headers and titles.
 \title{Beschreibung \xlhPlattformID}
@@ -21,22 +21,13 @@
 
 %\section{Beschreibung}
 
-Linux Embeddedrechner mit erhöhter Rechenleistung und integriertem RJ45 Ethernetanschluss für den Einsatz in der beruflichen Grundbildung.
-Anwendung: Festinstallationen Bildungseinrichtung.
+\input{elements/beschreibungen/\xlhPlattformID_beschreibung}
 
 Weitere Unterlagen (Elektronikschema, Step-Datei Gehäuse, Linux-Image, Applikationen, ...) sind via
 \href{https://github.com/xemax-ag/xLH/}{GitHub \xlhPlattformID}\ verfügbar.
 
 \section{Features}
-
-\begin{itemize}
-    \item Embedded Linuxrechner auf der Basis Raspberry Pi 5
-    \item CPU 1.8GHz quad-core, 64-bit ARM Cortex-A72, 8GB RAM
-    \item Linux Debian Bookworm Distribution
-    \item 4 Taster, 2 Schalter, 4 LEDs
-    \item 128 x 64 OLED
-    \item USB-C Speisung (ohne PD Funktionalität)
-\end{itemize}
+\input{elements/features/\xlhPlattformID_features}
 
 \section{Software}
 

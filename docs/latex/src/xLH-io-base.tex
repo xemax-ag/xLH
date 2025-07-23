@@ -5,7 +5,7 @@
 \newcommand{\xlhPlattformID}{xLH-io-base}
 
 \documentclass[10pt]{datasheet}
-\input{preambel}
+\input{preambel_datasheet}
 
 % These define global texts that are used in headers and titles.
 \title{Beschreibung \xlhPlattformID}
@@ -21,22 +21,13 @@
 
 %\section{Beschreibung}
 
-Der \xlhPlattformID erlaubt die Integration von bestehender Infrastruktur in einer kompakten Form.
+\input{elements/beschreibungen/\xlhPlattformID_beschreibung}
 
 Weitere Unterlagen (Elektronikschema, Step-Datei Gehäuse, ...) sind via
 \href{https://github.com/xemax-ag/xLH/}{GitHub \xlhPlattformID}\ verfügbar.
 
 \section{Features}
-
-\begin{itemize}
-    \item Microcontroller M5-Stack Atom Lite
-    \item 8 digitale Eingänge 24VDC
-    \item 8 digitale Ausgänge 24VDC
-    \item 2 analoge Eingänge 0-10VDC
-    \item 2 analoge Ausgänge 0-10VDC
-    \item Spannungsversorgung für xLH-lx-base integriert
-    \item kompakte Umsetzung
-\end{itemize}
+\input{elements/features/\xlhPlattformID_features}
 
 \section{Software}
 

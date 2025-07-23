@@ -26,9 +26,11 @@ pdflatex -interaction nonstopmode -output-directory $pdf_dir xLH-io-base.tex
 pdflatex -interaction nonstopmode -output-directory $pdf_dir xLH-io-base.tex
 pdflatex -interaction nonstopmode -output-directory $pdf_dir xLH-io-base-sp-4.tex
 pdflatex -interaction nonstopmode -output-directory $pdf_dir xLH-io-base-sp-4.tex
+pdflatex -interaction nonstopmode -output-directory $pdf_dir produktevorstellung.tex
+pdflatex -interaction nonstopmode -output-directory $pdf_dir produktevorstellung.tex
 
 cd "$pdf_dir"
-rm *.aux *.log *.out
+rm *.aux *.log *.out *.nav *.snm *.toc
 
 cd "$src_dir"
 python build_postprocessor.py
