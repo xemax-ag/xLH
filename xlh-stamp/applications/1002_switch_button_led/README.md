@@ -4,4 +4,4 @@
 <img src="docs/img/xlh_button_switch_led_2.png" height="250" />
 
 ## Firmware
-[1002_xLH_stamp_digital_switch_button_led_00_04.bin](firmware/1002_xLH_stamp_digital_switch_button_led_00_04.bin)
+[1002_xLH_stamp_digital_switch_button_led_00_04.zip](firmware/1002_xLH_stamp_digital_switch_button_led_00_04.zip
