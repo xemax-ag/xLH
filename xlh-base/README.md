@@ -30,6 +30,9 @@
 
 ## Codesys Signal Test
 Downloadlink: <a href="https://xlh-files.xemax.ch/source/codesys/xlh_base/xlh_base_signal_test_00_94.projectarchive" target="_blank">xlh_base_signal_test_00_94.projectarchive</a>
+login details  
+username: xlh  
+password: xlh  
 
 ## Codesys Development Environment
 Downloadlink: <a href="https://xlh-files.xemax.ch/software/CODESYS_64_3.5.21.30.exe" target="_blank">CODESYS_64_3.5.21.30.exe</a>
