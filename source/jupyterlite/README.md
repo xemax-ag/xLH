@@ -1,0 +1,1 @@
+Kompatibilität zu Image 0.94!
