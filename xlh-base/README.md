@@ -1,56 +1,21 @@
 # xLH-base
-<table>
-  <tr>
-    <td>
-      <img src="docs/img/xlh-base-1.png" height="125" />
-    </td>
-    <td>
-      <img src="docs/img/xlh-base-2.png" height="125" />
-    </td>
-    <td>
-      <img src="docs/img/xlh-base-3.png" height="125" />
-    </td>
-    <td>
-      <img src="docs/img/xlh-base-4.png" height="125" />
-    </td>
-    <td>
-      <img src="docs/img/xlh-base-5.png" height="125" />
-    </td>
-    <td>
-      <img src="docs/img/xlh-base-6.png" height="125" />
-    </td>
-    <td>
-      <img src="docs/img/xlh-base-7.png" height="125" />
-    </td>
-    <td>
-      <img src="docs/img/xlh-base-8.png" height="125" />
-    </td>
-  </tr>
-</table>
 
-## Codesys Signal Test
-Downloadlink: <a href="https://xlh-files.xemax.ch/source/codesys/xlh_base/xlh_base_signal_test_00_94.projectarchive" target="_blank">xlh_base_signal_test_00_94.projectarchive</a>
-login details  
-username: xlh  
-password: xlh  
+Specifications: <a href="https://xlh.xemax.ch/products/xlh-base" target="_blank">xlh.xemax.ch/products/xlh-base</a>
 
-## Codesys Development Environment
-Downloadlink: <a href="https://xlh-files.xemax.ch/software/CODESYS_64_3.5.21.30.exe" target="_blank">CODESYS_64_3.5.21.30.exe</a>
+Commissioning: <a href="https://xlh.xemax.ch/commissioning/xlh-base-commissioning-sw" target="_blank">xlh.xemax.ch/commissioning/xlh-base-commissioning-sw</a>
 
-## xLH Linux Image
-Downloadlink: <a href="https://xlh-files.xemax.ch/image/xlh_image_00_94.img" target="_blank">xlh_image_00_94.img</a>
+## Schematics
 
-<table>
-  <tr>
-    <td>
-      <img src="docs/img/sd_card_formatter.png" height="300" />
-    </td>
-    <td>
-      <img src="docs/img/win32_disk_imager.png" height="300" />
-    </td>
-  </tr>
-</table>
+- [xLH base PCB schematic](schematics/xLH_base_PCB.pdf)
+- [xLH-base REV1 schematic PDF](schematics/xLH-base-REV1.pdf)
+- [xLH-base REV1 schematic HTML](schematics/xLH-base-REV1.html)
 
-1. Download Image
-2. Format SD Card (<a href="https://xlh-files.xemax.ch/software/SD_Card_Formatter_5.0.3_Setup EN.exe" target="_blank">SD_Card_Formatter_5.0.3_Setup EN.exe</a>)
-3. Write Image to SD Card (<a href="https://xlh-files.xemax.ch/software/win32diskimager-1.0.0-install.exe" target="_blank">win32diskimager-1.0.0-install.exe</a>)
+## 3D Print Files
+
+- [3D print overview](3d_print/xLH_base.pdf)
+- [Base](3d_print/Boden.stp)
+- [Cover](3d_print/Deckel.stp)
+- [OLED holder](3d_print/OLED_Halterung.stp)
+- [PCB holder](3d_print/PCB_Halterung.stp)
+- [PCB mounting aid](3d_print/xLH_base_PCB_Montagehilfe.stp)
+- [USB-C spacer](3d_print/USB_C_Distanzhalter.stp)

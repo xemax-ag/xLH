@@ -1,9 +1,16 @@
 # xLH-stamp
-<img src="docs/img/xlh_stamp.png" height="250" />
 
-## Download Firmware
-<img src="docs/img/settings_write.png" height="400" />
-<a href="https://xlh-files.xemax.ch/software/flash_download_tool.zip" target="_blank">flash_download_tool.zip</a>
+Specifications: <a href="https://xlh.xemax.ch/products/xlh-stamp" target="_blank">xlh.xemax.ch/products/xlh-stamp</a>
 
-## 3D-Print
-<a href="3d_print">3D-Print</a>
+[//]: # (Commissioning: <a href="https://xlh.xemax.ch/commissioning/xlh-base-commissioning-sw" target="_blank">xlh.xemax.ch/commissioning/xlh-base-commissioning-sw</a>)
+
+## Schematics
+
+- [xLH-stamp REV1 schematic PDF](schematics/xLH-stamp-REV1.pdf)
+- [xLH-stamp REV1 schematic HTML](schematics/xLH-stamp-REV1.html)
+- [xLH-stamp PCB REV1 schematic](schematics/xLH-stamp-PCB-REV1.pdf)
+
+## 3D Print Files
+
+- [xLH stamp 3D print overview](3d_print/xLH_stamp.pdf)
+- [Bottom](3d_print/Boden.stp)
